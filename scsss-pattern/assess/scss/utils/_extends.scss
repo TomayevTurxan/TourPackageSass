@@ -1,0 +1,52 @@
+%icon {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fd5a38;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%h1-size {
+    font-size: 2.5rem;
+}
+%h3-size {
+    font-size: 2rem;
+}
+%p-font {
+    font-size: 1rem;
+}
+%span-style{
+    color: #ff7a58;
+    font-size: 1.5rem;
+}
+%a-size{
+    font-size: 20px;
+}
+%i-size{
+    font-size: 15px;
+}
+%img-measurement{
+    width: 100%;
+    height: 100%;
+}
+%card-style {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+%imgbox {
+    position: relative;
+    transition: .5s;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 1;
+    overflow: hidden;
+}
+%section-padding{
+   padding: 4rem 0rem; 
+}

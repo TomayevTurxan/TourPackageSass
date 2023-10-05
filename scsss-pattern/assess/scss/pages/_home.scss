@@ -1,9 +1,202 @@
-body {
-    background-color: red;
-    p {
-        color: $p-color;
+#city {
+    @extend %section-padding;
+    background-color: $bg-color;
+
+    .main-text {
+        @include margin-auto-center;
+
+        h1 {
+            color: $h-colur;
+            @extend %h1-size;
+            padding-bottom: 1.3rem;
+
+        }
+
+        p {
+            color: $p-color;
+            @extend %p-font;
+            margin-bottom: 30px;
+            padding: 0px 1.5rem;
+        }
     }
-    h1{
-        color: red;
+
+    .card {
+        @extend %card-style;
+
+        &__imgbox {
+            @extend %imgbox;
+
+            &__owerlay {
+                @include owerlay;
+            }
+
+            img {
+                @extend %img-measurement;
+            }
+
+            &__book {
+                @include btn-book;
+
+                a {
+                    padding: 10px;
+                    position: absolute;
+                    color: $a-color;
+                    background-color: $a-bg;
+                }
+            }
+        }
+
+        &:hover {
+            .card__imgbox__book {
+                top: 42%;
+                opacity: 1;
+                z-index: 9999;
+            }
+        }
+
+        &:hover {
+            .card__imgbox__owerlay {
+                opacity: .5;
+            }
+        }
+    }
+}
+
+#city {
+    .card {
+        &__card-info {
+            padding: 20px;
+
+            h1 {
+                @extend %h1-size;
+            }
+
+            &__card-text {
+                padding-bottom: 25px;
+                border-bottom: 1px solid grey;
+                margin: 20px 0px;
+                @extend %p-font;
+            }
+
+            &__reyting {
+                @include display-space-between;
+                flex-wrap: wrap;
+
+                span {
+                    @extend %span-style
+                }
+
+                ul {
+                    display: flex;
+
+                    li {
+                        margin-right: 5px;
+                    }
+                }
+
+                p {
+                    @extend %p-font;
+                    margin: 20px 0px;
+                }
+            }
+        }
+    }
+
+    .buttonall {
+        width: 200px;
+        margin: 20px auto;
+        text-align: center;
+        transition: .5s;
+        overflow: hidden;
+
+        button {
+            @include btn;
+
+            a {
+                color: $a-color;
+                margin-right: 10px;
+                @extend %a-size;
+            }
+
+            i {
+                @extend %i-size;
+                color: white;
+            }
+
+
+        }
+
+        &:hover button {
+            transform: scale(.8);
+            background-color: $btn-hover-bg-color;
+        }
+    }
+}
+
+#services {
+    @extend %section-padding;
+
+    .main-text {
+        @include margin-auto-center;
+
+        h1 {
+            color: $h-colur;
+            @extend %h1-size;
+            padding-bottom: 1.3rem;
+        }
+
+        p {
+            color: $p-color;
+            @extend %p-font;
+            margin-bottom: 30px;
+            padding: 0px 1.5rem;
+        }
+    }
+
+    .service-text {
+        @include display-center;
+        text-align: center;
+        flex-direction: column;
+
+        .icon {
+            @include display-center;
+            @include icon;
+
+            i {
+                color: $i-color;
+                font-size: 25px;
+            }
+
+            &::before {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                transform: scale(0);
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                transition: 0.5s;
+            }
+
+            &:hover::before {
+                background: #fd5a38;
+                transform: scale(0.8);
+            }
+
+            &:hover i {
+                color: white;
+                z-index: 99;
+            }
+        }
+
+        h3 {
+            @extend %h3-size;
+            margin: 20px 0px
+        }
+
+        p {
+            @extend %p-font;
+            color: $p-color;
+        }
     }
 }

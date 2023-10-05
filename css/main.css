@@ -1,0 +1,775 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-Black.woff2") format("woff2"), url("Poppins-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-Bold.woff2") format("woff2"), url("Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-ExtraBoldItalic.woff2") format("woff2"), url("Poppins-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-ExtraBold.woff2") format("woff2"), url("Poppins-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-BlackItalic.woff2") format("woff2"), url("Poppins-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-BoldItalic.woff2") format("woff2"), url("Poppins-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-Italic.woff2") format("woff2"), url("Poppins-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-ExtraLightItalic.woff2") format("woff2"), url("Poppins-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-ExtraLight.woff2") format("woff2"), url("Poppins-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-Medium.woff2") format("woff2"), url("Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-Regular.woff2") format("woff2"), url("Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-MediumItalic.woff2") format("woff2"), url("Poppins-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-SemiBold.woff2") format("woff2"), url("Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-Light.woff2") format("woff2"), url("Poppins-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-LightItalic.woff2") format("woff2"), url("Poppins-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-Thin.woff2") format("woff2"), url("Poppins-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-SemiBoldItalic.woff2") format("woff2"), url("Poppins-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-ThinItalic.woff2") format("woff2"), url("Poppins-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "K2D";
+  src: url("K2D-BoldItalic.woff2") format("woff2"), url("K2D-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "K2D";
+  src: url("K2D-Bold.woff2") format("woff2"), url("K2D-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "K2D";
+  src: url("K2D-ExtraBold.woff2") format("woff2"), url("K2D-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "K2D";
+  src: url("K2D-Light.woff2") format("woff2"), url("K2D-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "K2D";
+  src: url("K2D-ExtraLight.woff2") format("woff2"), url("K2D-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "K2D";
+  src: url("K2D-Italic.woff2") format("woff2"), url("K2D-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "K2D";
+  src: url("K2D-ExtraLightItalic.woff2") format("woff2"), url("K2D-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "K2D";
+  src: url("K2D-ExtraBoldItalic.woff2") format("woff2"), url("K2D-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "K2D";
+  src: url("K2D-Medium.woff2") format("woff2"), url("K2D-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "K2D";
+  src: url("K2D-LightItalic.woff2") format("woff2"), url("K2D-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "K2D";
+  src: url("K2D-Regular.woff2") format("woff2"), url("K2D-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "K2D";
+  src: url("K2D-MediumItalic.woff2") format("woff2"), url("K2D-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "K2D";
+}
+
+p {
+  font-family: "Poppins";
+}
+
+span {
+  font-weight: 700;
+  font-family: "Poppins";
+}
+
+ul {
+  list-style: none;
+}
+
+#services .main-text h1, #city .card__card-info h1, #city .main-text h1 {
+  font-size: 2.5rem;
+}
+
+#services .service-text h3 {
+  font-size: 2rem;
+}
+
+#services .service-text p, #services .main-text p, #city .card__card-info__reyting p, #city .card__card-info__card-text, #city .main-text p {
+  font-size: 1rem;
+}
+
+#city .card__card-info__reyting span {
+  color: #ff7a58;
+  font-size: 1.5rem;
+}
+
+#city .buttonall button a {
+  font-size: 20px;
+}
+
+#city .buttonall button i {
+  font-size: 15px;
+}
+
+#city .card__imgbox img {
+  width: 100%;
+  height: 100%;
+}
+
+#city .card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#city .card__imgbox {
+  position: relative;
+  transition: 0.5s;
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  opacity: 1;
+  overflow: hidden;
+}
+
+#services, #city {
+  padding: 4rem 0rem;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.mr-auto {
+  margin-right: auto !important;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+[class|=col] {
+  padding: 0px 16px;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/* mobile responsive */
+@media only screen and (max-width: 640px) {
+  .col-sm-1 {
+    width: 8.3333333333%;
+  }
+  .col-sm-2 {
+    width: 16.6666666667%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.3333333333%;
+  }
+  .col-sm-5 {
+    width: 41.6666666667%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.3333333333%;
+  }
+  .col-sm-8 {
+    width: 66.6666666667%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.3333333333%;
+  }
+  .col-sm-11 {
+    width: 91.6666666667%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+/*phone respnsive*/
+@media (max-width: 640px) {
+  .col-sm-1 {
+    width: 8.3333333333%;
+  }
+  .col-sm-2 {
+    width: 16.6666666667%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.3333333333%;
+  }
+  .col-sm-5 {
+    width: 41.6666666667%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.3333333333%;
+  }
+  .col-sm-8 {
+    width: 66.6666666667%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-am-10 {
+    width: 83.3333333333%;
+  }
+  .col-am-11 {
+    width: 91.6666666667%;
+  }
+  .col-am-12 {
+    width: 100%;
+  }
+}
+/* tablet responsive */
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+  .col-md-1 {
+    width: 8.3333333333%;
+  }
+  .col-md-2 {
+    width: 16.6666666667%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.3333333333%;
+  }
+  .col-md-5 {
+    width: 41.6666666667%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.3333333333%;
+  }
+  .col-md-8 {
+    width: 66.6666666667%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.3333333333%;
+  }
+  .col-md-11 {
+    width: 91.6666666667%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+/* desktop responsive */
+@media only screen and (min-width: 768px) and (max-width: 998px) {
+  .col-lg-1 {
+    width: 8.3333333333%;
+  }
+  .col-lg-2 {
+    width: 16.6666666667%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.3333333333%;
+  }
+  .col-lg-5 {
+    width: 41.6666666667%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.3333333333%;
+  }
+  .col-lg-8 {
+    width: 66.6666666667%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.3333333333%;
+  }
+  .col-lg-11 {
+    width: 91.6666666667%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+/*tv responsive*/
+@media only screen and (min-width: 998px) and (max-width: 1400px) {
+  .col-xl-1 {
+    width: 8.3333333333%;
+  }
+  .col-xl-2 {
+    width: 16.6666666667%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-4 {
+    width: 33.3333333333%;
+  }
+  .col-xl-5 {
+    width: 41.6666666667%;
+  }
+  .col-xl-6 {
+    width: 50%;
+  }
+  .col-xl-7 {
+    width: 58.3333333333%;
+  }
+  .col-xl-8 {
+    width: 66.6666666667%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-10 {
+    width: 83.3333333333%;
+  }
+  .col-xl-11 {
+    width: 91.6666666667%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+}
+#city {
+  background-color: #f2f8fb;
+}
+#city .main-text {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+#city .main-text h1 {
+  color: #292b2c;
+  padding-bottom: 1.3rem;
+}
+#city .main-text p {
+  color: #888888;
+  margin-bottom: 30px;
+  padding: 0px 1.5rem;
+}
+#city .card__imgbox__owerlay {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  background-color: black;
+  opacity: 0;
+  transition: 0.5s;
+}
+#city .card__imgbox__book {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  left: 38%;
+  top: 0;
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 999;
+}
+#city .card__imgbox__book a {
+  padding: 10px;
+  position: absolute;
+  color: white;
+  background-color: red;
+}
+#city .card:hover .card__imgbox__book {
+  top: 42%;
+  opacity: 1;
+  z-index: 9999;
+}
+#city .card:hover .card__imgbox__owerlay {
+  opacity: 0.5;
+}
+
+#city .card__card-info {
+  padding: 20px;
+}
+#city .card__card-info__card-text {
+  padding-bottom: 25px;
+  border-bottom: 1px solid grey;
+  margin: 20px 0px;
+}
+#city .card__card-info__reyting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#city .card__card-info__reyting ul {
+  display: flex;
+}
+#city .card__card-info__reyting ul li {
+  margin-right: 5px;
+}
+#city .card__card-info__reyting p {
+  margin: 20px 0px;
+}
+#city .buttonall {
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+  transition: 0.5s;
+  overflow: hidden;
+}
+#city .buttonall button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ed4a28;
+  transition: 0.5s;
+}
+#city .buttonall button a {
+  color: white;
+  margin-right: 10px;
+}
+#city .buttonall button i {
+  color: white;
+}
+#city .buttonall:hover button {
+  transform: scale(0.8);
+  background-color: #cf4023;
+}
+
+#services .main-text {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+#services .main-text h1 {
+  color: #292b2c;
+  padding-bottom: 1.3rem;
+}
+#services .main-text p {
+  color: #888888;
+  margin-bottom: 30px;
+  padding: 0px 1.5rem;
+}
+#services .service-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+#services .service-text .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #fd5a38;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#services .service-text .icon i {
+  color: #fd5a38;
+  font-size: 25px;
+}
+#services .service-text .icon::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  transform: scale(0);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+#services .service-text .icon:hover::before {
+  background: #fd5a38;
+  transform: scale(0.8);
+}
+#services .service-text .icon:hover i {
+  color: white;
+  z-index: 99;
+}
+#services .service-text h3 {
+  margin: 20px 0px;
+}
+#services .service-text p {
+  color: #888888;
+}
+
+@media (max-width: 640px) {
+  #city .main-text {
+    width: 100%;
+  }
+  #city .main-text h1 {
+    font-size: 1.5rem;
+  }
+  #city .card .card-info p {
+    margin: 10px 0px;
+  }
+  #services .service-text p {
+    display: none;
+  }
+  #services .main-text {
+    width: 80%;
+  }
+  #seervices .main-text p {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+  #city .main-text {
+    width: 80%;
+  }
+  #city .main-text p {
+    font-size: 0.8rem;
+  }
+  #services .service-text p {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 998px) {
+  #city .main-text {
+    width: 80%;
+  }
+  #city .main-text p {
+    font-size: 0.8rem;
+  }
+  #services .main-text {
+    width: 80%;
+  }
+  #seervices .main-text p {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=main.css.map */

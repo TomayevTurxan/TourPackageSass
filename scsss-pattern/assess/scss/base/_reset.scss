@@ -11,11 +11,6 @@ a {
     font-weight: 400;
 }
 
-span {
-    font-family: "";
-    font-weight: 700;
-}
-
 h1,
 h2,
 h3,
@@ -23,11 +18,14 @@ h4,
 h5,
 h6 {
     font-family: "K2D";
-    color: #313131;
 }
 
-p,
+p {
+    font-family: "Poppins";
+}
+
 span {
+    font-weight: 700;
     font-family: "Poppins";
 }
 
